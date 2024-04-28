@@ -1,5 +1,6 @@
 ---
 title: Nightly Melancholy
+image: /assets/img/skys_240428/4.jpg
 date: 2024-04-28 02:41:20 -0400
 categories: [memo]
 tags: [life]

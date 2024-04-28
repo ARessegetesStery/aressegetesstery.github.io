@@ -18,5 +18,8 @@ This is *the* art form that I found myself easiest to get hands on, and make pro
 
 I am myself an amateurish producer, trying to create and disperse beauty with my own hands. You can find my works in [Netease](https://music.163.com/#/artist?id=31057676) (all of them, but some are of low quality/results of practice) and [Bandcamp](https://arbitsv.bandcamp.com/) (selective ones, the tracks that I am proud of). I will be very happy if any of my works have any positive influence on your life - even just a little bit. That suffices to justify the meaning of art. 
 
+## Blogs
+
+I am also writing blogs on this site. They are in Chinese though. [Check it out!](https://aressegetesstery.github.io/tags/life/)
 
 {: .prompt-tip }
