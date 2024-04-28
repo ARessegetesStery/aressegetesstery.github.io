@@ -17,8 +17,3 @@ I am also awed by Math, which is a subject of great variety and inspiration (but
 This is *the* art form that I found myself easiest to get hands on, and make progresses. I cannot count how many times music remind me of the meaning and beauty of life. 
 
 I am myself an amateurish producer, trying to create and disperse beauty with my own hands. You can find my works in [Netease]() (all of them, but some are of low quality/results of practice) and [Bandcamp]() (selective ones, the tracks that I am proud of). I will be very happy if any of my works have any positive influence on your life - even just a little bit. That suffices to justify the meaning of art. 
-
-<!-- I would also like to share some of the producers whose music inspired me to embark on this journey of production. Check it out and see if you like them:
-
-- [Avicii](https://avicii.com). His work unveils the work of electronic music. It's a bit of vague memory which of his work inspired me, but they are the better ones in dance music. He passed away in 2018 due to issues of mental health. RIP.
-- [] -->
