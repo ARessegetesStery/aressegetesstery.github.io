@@ -58,3 +58,7 @@ mermaid: true
 那些瞬间提醒着我这一切的美好。
 
 {% include embed/youtube.html id='ye0i3Sdloaw' %}
+
+谢谢你能看到这里。对所有能看到这句话的朋友，很高兴见到你。
+
+趁可以的时候，过自己想过的生活吧。>_<
