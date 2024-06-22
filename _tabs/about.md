@@ -16,6 +16,4 @@ I am also awed by Math, which is a subject of great variety and inspiration (but
 
 This is *the* art form that I found myself easiest to get hands on, and make progresses. I cannot count how many times music remind me of the meaning and beauty of life. 
 
-I am myself an amateurish producer, trying to create and disperse beauty with my own hands. You can find my works in [Netease](https://music.163.com/#/artist?id=31057676) (all of them, but some are of low quality/results of practice) and [Bandcamp](https://arbitsv.bandcamp.com/) (selective ones, the tracks that I am proud of). I will be very happy if any of my works have any positive influence on your life - even just a little bit. That suffices to justify the meaning of art. 
-
-# 
+I am myself an amateurish producer, trying to create and disperse beauty with my own hands. You can find my works in [Netease](https://music.163.com/#/artist?id=31057676) (all of them, but some are of low quality/results of practice) and [Bandcamp](https://arias-alcta.bandcamp.com/) (selective ones, the tracks that I am proud of). I will be very happy if any of my works have any positive influence on your life - even just a little bit. That suffices to justify the meaning of art. 
