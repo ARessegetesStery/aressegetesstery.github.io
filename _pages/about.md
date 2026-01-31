@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! This is Yuqi Meng (*yoo-chee mung*). I also go by Arias.
 
-I am currently a research assistant at [University of Utah](http://www.utah.edu/), advised by [Prof. Yin Yang](https://yangzzzy.github.io/). Before that, I received my B.S.E. in Computer Science from [University of Michigan](https://umich.edu/) and B.E. in Electrical and Computer Engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). During my undergraduate years, I was very fortunate to be advised by [Prof. Minchen Li](https://www.cs.cmu.edu/~minchenl/), who introduced me to the field of physics simulation in computer graphics.
+I am currently a research assistant at [University of Utah](http://www.utah.edu/), advised by [Prof. Yin Yang](https://yangzzzy.github.io/). Before that, I received my B.S.E. in Computer Science from [University of Michigan](https://umich.edu/) and B.E. in Electrical and Computer Engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). During my undergraduate years, I was fortunate to be advised by [Prof. Minchen Li](https://www.cs.cmu.edu/~minchenl/), who introduced me to the field of physics simulation in computer graphics.
 
 My research interest includes developing robust and efficient computing methods for physics-based simulation. Still exploring :)
 
