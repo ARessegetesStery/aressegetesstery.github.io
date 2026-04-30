@@ -27,9 +27,33 @@ My research interest includes developing robust and efficient computing methods 
 
 
 # 🔥 News
+- *2026.04*: Two papers have been accepted by SIGGRAPH 2026! See you in LA this summer! :P
 - *2026.03*: I am starting my PhD at University of Utah this fall. If you are in SLC and are interested in anything related to graphics, I'm happy to have a chat! :)
 
 # Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH 2026</div><img src='images/bsfem.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Efficient B-Spline Finite Elements for Cloth Simulation
+
+**Yuqi Meng**, Yihao Shi, Kemeng Huang, Zixuan Lu, Ning Guo, Taku Komura, Yin Yang, Minchen Li
+
+[**Project**](https://simulation-intelligence.github.io/BS-Cloth/) | *Paper (Coming Soon)* | [**Code**](https://github.com/Simulation-Intelligence/BS-Cloth)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH 2026</div><img src='images/jgs2-gq.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature
+
+Dewen Guo, Zixuan Lu, Zhiyong He, **Yuqi Meng**, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang
+
+*Paper (Coming Soon)*
+<!-- [**Paper**](https://dl.acm.org/doi/10.1145/3610548.3618214) -->
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Asia 2023 (Conference)</div><img src='images/rt-octree.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
