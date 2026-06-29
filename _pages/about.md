@@ -32,7 +32,7 @@ My research interest includes developing robust and efficient computing methods 
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH 2026</div><img src='images/bsfem.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Transactions on Graphics (SIGGRAPH 2026)</div><img src='images/bsfem.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Efficient B-Spline Finite Elements for Cloth Simulation
@@ -43,7 +43,7 @@ Efficient B-Spline Finite Elements for Cloth Simulation
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH 2026</div><img src='images/jgs2-gq.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Transactions on Graphics (SIGGRAPH 2026)</div><img src='images/jgs2-gq.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature
