@@ -39,7 +39,7 @@ Efficient B-Spline Finite Elements for Cloth Simulation
 
 **Yuqi Meng**, Yihao Shi, Kemeng Huang, Zixuan Lu, Ning Guo, Taku Komura, Yin Yang, Minchen Li
 
-[**Project**](https://simulation-intelligence.github.io/BS-Cloth/) | *Paper (Coming Soon)* | [**Code**](https://github.com/Simulation-Intelligence/BS-Cloth)
+[**Project**](https://simulation-intelligence.github.io/BS-Cloth/) | [**Paper**](https://dl.acm.org/doi/10.1145/3811278) | [**Code**](https://github.com/Simulation-Intelligence/BS-Cloth)
 </div>
 </div>
 
@@ -50,8 +50,7 @@ JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature
 
 Dewen Guo, Zixuan Lu, Zhiyong He, **Yuqi Meng**, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang
 
-*Paper (Coming Soon)*
-<!-- [**Paper**](https://dl.acm.org/doi/10.1145/3610548.3618214) -->
+[**Paper**](https://dl.acm.org/doi/10.1145/3811274)
 </div>
 </div>
 
