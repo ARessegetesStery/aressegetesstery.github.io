@@ -292,3 +292,113 @@ a, button, input, textarea, select, summary, [tabindex] {
     vertical-align: top;
   }
 }
+
+/*
+   Publications — .paper-box / .badge (spec §7f)
+   Moved here from assets/css/main.scss per spec §5. Layout/positioning
+   values (flex, order, breakpoint reflow, badge offset) are unchanged from
+   the original — only color/border/typography are restyled dark.
+   ========================================================================== */
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--rule);
+    padding: 2em 0 2em 0;
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            border: 1px solid var(--rule);
+            border-radius: 4px;
+            object-fit: cover;
+        }
+    }
+
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+
+        p {
+          font-family: var(--serif);
+        }
+
+        p:first-of-type {
+          margin-top: 0;
+          font-weight: 600;
+          font-size: 1.12rem;
+          line-height: 1.35;
+          color: var(--ink);
+        }
+
+        p:nth-of-type(2) {
+          font-size: .92rem;
+          color: var(--muted);
+
+          strong {
+            color: var(--ink);
+            font-weight: 600;
+          }
+        }
+
+        p:last-of-type {
+          margin-top: .6em;
+          font-family: var(--mono);
+          font-size: .74rem;
+          letter-spacing: .02em;
+
+          a {
+            margin-right: 1.1em;
+            color: var(--accent);
+            text-decoration: none;
+
+            &:hover {
+              color: var(--accent-2);
+            }
+          }
+        }
+    }
+
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: var(--accent);
+    background-color: var(--panel);
+    border: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: .62rem;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
