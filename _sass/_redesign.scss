@@ -91,6 +91,19 @@ a, button, input, textarea, select, summary, [tabindex] {
    Rail — avatar, identity, contact list (spec §7a)
    ========================================================================== */
 
+/* The base theme only stacks the rail into a clean vertical column at
+   $large (925px)+; below that .profile_box is display:flex and its three
+   children are display:table-cell, so avatar/name/links render squeezed
+   into one horizontal row at every width below 925px — nearly every real
+   viewport, including this environment's own preview. Force the vertical
+   stack (matching the reference mockup) at every width instead. */
+.profile_box,
+.author__avatar,
+.author__content,
+.author__urls-wrapper {
+  display: block;
+}
+
 .author__avatar img {
   width: 64px;
   height: 64px;
@@ -213,6 +226,12 @@ a, button, input, textarea, select, summary, [tabindex] {
   color: var(--ink);
   font-size: 1.06rem;
   line-height: 1.6;
+  /* the theme's susy grid gives .page a wide 10-of-12 span with no cap of
+     its own — without this, body copy runs far wider than a comfortable
+     reading measure and publication images balloon since their %-based
+     max-width has nothing sensible to be a percentage of (reference: a
+     680px-wide main column). */
+  max-width: 680px;
 
   a {
     color: var(--accent);
