@@ -86,3 +86,118 @@ a, button, input, textarea, select, summary, [tabindex] {
     z-index: 1;
   }
 }
+
+/*
+   Rail — avatar, identity, contact list (spec §7a)
+   ========================================================================== */
+
+.author__avatar img {
+  width: 64px;
+  height: 64px;
+  max-width: 64px;
+  min-width: 64px;
+  object-fit: cover;
+  padding: 0;
+  border: 1px solid var(--rule);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .35);
+}
+
+.sidebar .author__name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.author__alt {
+  margin: .25em 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.author__bio {
+  margin: 1em 0 0;
+  font-family: var(--mono);
+  font-size: .72rem;
+  color: var(--muted);
+  line-height: 1.7;
+  letter-spacing: .02em;
+}
+
+/* Contact list: the base theme hides this behind a JS-toggled dropdown below
+   $large (display:none by default, only a non-functional button without JS)
+   — that fails the "works without JS" requirement (spec §8) on mobile. Force
+   it always visible and drop the now-pointless toggle button instead. */
+.author__urls-wrapper button {
+  display: none;
+}
+
+.author__urls {
+  display: block;
+  position: static;
+  margin: 1.4em 0 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-family: var(--mono);
+
+  &:before, &:after {
+    display: none;
+  }
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: .55em;
+    padding: .55em 0;
+    border-top: 1px solid var(--rule);
+    font-size: .78rem;
+    letter-spacing: .01em;
+    white-space: normal;
+    color: var(--ink);
+
+    &::before {
+      content: "▹";
+      color: var(--accent);
+      font-size: .68rem;
+      line-height: 1;
+    }
+
+    &:last-child {
+      border-bottom: 1px solid var(--rule);
+    }
+  }
+
+  /* first populated item is the location line (spec §5/§10) — read as a
+     quiet caption, not a contact-link row */
+  li:first-child {
+    color: var(--faint);
+    font-size: .72rem;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  a {
+    color: var(--ink);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  i {
+    display: none;
+  }
+}
