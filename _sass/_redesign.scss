@@ -52,3 +52,37 @@ a, button, input, textarea, select, summary, [tabindex] {
     scroll-behavior: auto !important;
   }
 }
+
+/*
+   Mesh signature — a faint FEM/cloth-mesh grid behind the header region.
+   Lives on #main (wraps the rail + content columns) rather than inside
+   .masthead, matching the real DOM: masthead.html renders as its own bar,
+   #main is a separate wrapper below it. CSS-only, static (§4a), pointer-
+   events none so it never intercepts clicks.
+   ========================================================================== */
+
+#main {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 230px;
+    z-index: 0;
+    pointer-events: none;
+    opacity: .12;
+    background-image:
+      linear-gradient(var(--accent) 1px, transparent 1px),
+      linear-gradient(90deg, var(--accent) 1px, transparent 1px);
+    background-size: 28px 28px;
+    -webkit-mask-image: radial-gradient(130% 90% at 22% -10%, #000 0%, transparent 68%);
+            mask-image: radial-gradient(130% 90% at 22% -10%, #000 0%, transparent 68%);
+  }
+
+  > .sidebar,
+  > .page {
+    position: relative;
+    z-index: 1;
+  }
+}

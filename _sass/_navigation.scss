@@ -430,3 +430,73 @@
     }
   }
 }
+
+
+/*
+   Masthead nav — mono "spec-sheet" treatment
+   ========================================================================== */
+
+.masthead .greedy-nav {
+  min-width: 0;
+  background: transparent;
+
+  .visible-links {
+    a {
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin: 0 0 0 1.75rem;
+      padding: .5rem 0;
+    }
+
+    li:first-child a {
+      margin-left: 0;
+    }
+  }
+
+  button {
+    background-color: transparent;
+    color: var(--muted);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  .hidden-links {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .35);
+
+    a {
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--ink);
+
+      &:hover {
+        color: var(--accent);
+        background: var(--paper);
+      }
+    }
+
+    &:before { border-color: var(--rule) transparent; }
+    &:after { border-color: var(--panel) transparent; }
+
+    li { border-bottom: 1px solid var(--rule); }
+  }
+}
+
+/* Below $medium the rail already stacks above the content in natural reading
+   order, so the in-page nav is redundant — drop it rather than let the
+   table-cell nav links wrap awkwardly (spec's reference composition hides
+   nav below 768px too). Pure CSS, so this holds with JS disabled. */
+@include breakpoint(max-width $medium) {
+  .masthead .greedy-nav {
+    .visible-links, button {
+      display: none;
+    }
+  }
+}
