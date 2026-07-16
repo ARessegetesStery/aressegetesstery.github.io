@@ -302,15 +302,6 @@ a, button, input, textarea, select, summary, [tabindex] {
   text-decoration-color: var(--accent-2);
 }
 
-.eyebrow {
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 1.2em;
-}
-
 .about p {
   margin: 0 0 1.1em;
 }
