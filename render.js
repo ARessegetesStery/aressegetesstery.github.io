@@ -26,12 +26,12 @@ function renderPublications() {
       return `
         <div class="pub">
           <div class="pub-image">
-            <div class="badge">${pub.venue}</div>
             <img src="${pub.image}" alt="${pub.title}" loading="lazy">
           </div>
           <div class="pub-text">
             <div class="pub-title">${pub.title}</div>
             <div class="pub-authors">${pub.authorsHtml}</div>
+            <div class="pub-venue">${pub.venue}</div>
             <div class="pub-links">${links}</div>
           </div>
         </div>`;
