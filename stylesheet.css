@@ -154,7 +154,13 @@ a, button, input, textarea, select, summary, [tabindex] {
   max-width: 1320px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  /* min() lets the rail shrink fluidly instead of staying rigidly fixed --
+     a hard 300px + the .pub grid's fixed image column left no room to give
+     between this and the 768px stack breakpoint, so zooming in (which
+     shrinks the effective viewport in CSS px) forced the content column to
+     overflow rather than reflow. minmax(0, 1fr) lets the content column
+     shrink below its own content's intrinsic width too, for the same reason. */
+  grid-template-columns: min(300px, 25%) minmax(0, 1fr);
 }
 
 @media (max-width: 768px) {
@@ -370,7 +376,11 @@ a, button, input, textarea, select, summary, [tabindex] {
 
 .pub {
   display: grid;
-  grid-template-columns: 400px 1fr;
+  /* same fluid-sizing reasoning as .layout above -- 44% keeps the image at
+     exactly 400px at the content column's full 1020px width (400/908 inner
+     width ≈ 44%), and shrinks it smoothly instead of forcing overflow as
+     the column narrows below that. */
+  grid-template-columns: min(400px, 44%) minmax(0, 1fr);
   align-items: start;
   gap: 28px;
   margin-top: 32px;
