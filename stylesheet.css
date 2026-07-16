@@ -371,6 +371,7 @@ a, button, input, textarea, select, summary, [tabindex] {
 .pub {
   display: grid;
   grid-template-columns: 400px 1fr;
+  align-items: start;
   gap: 28px;
   margin-top: 32px;
   padding-bottom: 32px;
@@ -390,8 +391,7 @@ a, button, input, textarea, select, summary, [tabindex] {
 
 .pub-image img {
   width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
+  height: auto;
   border: 1px solid var(--rule);
   border-radius: 4px;
   display: block;
