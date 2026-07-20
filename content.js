@@ -4,6 +4,10 @@
 
 const newsItems = [
   {
+    date: "2026.07",
+    html: "One paper has been accepted by SIGGRAPH Asia 2026!",
+  },
+  {
     date: "2026.04",
     html: "Two papers have been accepted by SIGGRAPH 2026! See you in LA this summer! :P",
   },
