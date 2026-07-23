@@ -84,6 +84,15 @@ const teaching = [
 const misc = [
   {
     html:
+      'Although I deep-dive in computer science, I also find math particularly ' +
+      'intriguing. During my undergraduate years, I maintained ' +
+      '<a href="https://github.com/ARessegetesStery/Course-Notes" target="_blank" rel="noopener noreferrer">these notes</a> ' +
+      'when studying abstract algebra, a subject that appears obscure yet ' +
+      'reflects the delicate structure of mathematics. Feel free to grab them, ' +
+      'and I would be very glad if they are to any extent helpful.',
+  },
+  {
+    html:
       'Besides academics, I also have artistic pursuits. Check out my ' +
       '<a href="https://arias-alcta.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a> ' +
       'for my past music productions. There are many more works on the way :)',
