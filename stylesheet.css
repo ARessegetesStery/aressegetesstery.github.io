@@ -16,6 +16,10 @@
   --rule    : #3A3F4E;
   --serif   : "Newsreader", Georgia, serif;
   --mono    : "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+  /* Intrinsic height of the sticky .masthead: 14px*2 padding + 24px line box
+     (1rem × 1.5 line-height) + 1px border. The .mesh grid sticks just below
+     this so it never tucks under the banner. */
+  --masthead-h: 53px;
 }
 
 /* ---- reset / base ---- */
@@ -138,11 +142,24 @@ a, button, input, textarea, select, summary, [tabindex] {
 }
 
 .mesh {
-  position: fixed;
-  inset: 0 0 auto 0;
-  height: 300px;
+  /* Zero-height sticky wrapper: reserves no space (so the grid overlays the
+     content instead of pushing it down) yet sticks just below the masthead via
+     top: --masthead-h, keeping the grid's top edge glued to the banner bottom.
+     Being in normal flow like the sticky masthead, it rubber-bands together
+     with the banner during an overscroll at the top, so they stay aligned
+     through the bounce. The band itself is painted by ::before. */
+  position: sticky;
+  top: var(--masthead-h);
+  height: 0;
   z-index: 0;
   pointer-events: none;
+}
+
+.mesh::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 300px;
   opacity: 0.12;
   background-image:
     linear-gradient(var(--accent) 1px, transparent 1px),
