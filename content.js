@@ -84,8 +84,8 @@ const teaching = [
 const misc = [
   {
     html:
-      'Besides academics, I also have artistic pursuits. Check out ' +
-      '<a href="https://arias-alcta.bandcamp.com/" target="_blank" rel="noopener noreferrer">my Bandcamp</a> ' +
+      'Besides academics, I also have artistic pursuits. Check out my ' +
+      '<a href="https://arias-alcta.bandcamp.com/" target="_blank" rel="noopener noreferrer">Bandcamp</a> ' +
       'for my past music productions. There are many more works on the way :)',
   },
 ];

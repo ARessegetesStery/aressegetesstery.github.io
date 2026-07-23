@@ -24,6 +24,10 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  /* Leave room for the sticky .masthead (~53px tall) when jumping to an
+     in-page anchor, so section headings land just below the banner instead
+     of being scrolled up underneath it. */
+  scroll-padding-top: 72px;
 }
 
 body {
