@@ -65,7 +65,33 @@ function renderTeaching() {
     .join("");
 }
 
+// Misc is optional: while the `misc` array in content.js is empty, keep the
+// section and its nav link out of the page entirely so visitors never see a
+// dangling empty header. Adding an entry makes both reappear automatically.
+function renderMisc() {
+  const section = document.getElementById("misc");
+  const navLink = document.querySelector('.masthead-nav a[href="#misc"]');
+
+  if (!misc.length) {
+    section.hidden = true;
+    if (navLink) navLink.hidden = true;
+    return;
+  }
+
+  section.hidden = false;
+  if (navLink) navLink.hidden = false;
+  document.getElementById("misc-list").innerHTML = misc
+    .map(
+      (item) => `
+        <div class="news-item">
+          <span>${item.html}</span>
+        </div>`
+    )
+    .join("");
+}
+
 renderNews();
 renderPublications();
 renderEducation();
 renderTeaching();
+renderMisc();

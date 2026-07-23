@@ -76,3 +76,16 @@ const teaching = [
     ],
   },
 ];
+
+// Misc — free-form list. Add entries as { html: "..." } and each renders as a
+// line under the Misc section (HTML, including <a> links, is allowed). While
+// this array is empty, the whole Misc section and its nav link stay hidden --
+// see renderMisc in render.js.
+const misc = [
+  {
+    html:
+      'Besides academics, I also have artistic pursuits. Check out ' +
+      '<a href="https://arias-alcta.bandcamp.com/" target="_blank" rel="noopener noreferrer">my Bandcamp</a> ' +
+      'for my past music productions. There are many more works on the way :)',
+  },
+];
