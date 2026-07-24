@@ -63,7 +63,7 @@ function renderTeaching() {
             .map(
               (item) => `
           <li>
-            <span class="item-date">${item.date}</span>
+            <span class="item-date">${item.code}</span>
             <span>${item.html}</span>
           </li>`
             )
