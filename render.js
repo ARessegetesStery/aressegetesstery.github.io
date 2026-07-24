@@ -22,7 +22,7 @@ function renderPublications() {
     .map((pub) => {
       const links = pub.links
         .map((l) => `<a href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}</a>`)
-        .join("");
+        .join('<span class="pub-links-sep" aria-hidden="true">|</span>');
       return `
         <div class="pub">
           <div class="pub-image">
@@ -59,7 +59,15 @@ function renderTeaching() {
       (group) => `
         <div class="teaching-role">${group.role}</div>
         <ul>
-          ${group.items.map((html) => `<li>${html}</li>`).join("")}
+          ${group.items
+            .map(
+              (item) => `
+          <li>
+            <span class="item-date">${item.date}</span>
+            <span>${item.html}</span>
+          </li>`
+            )
+            .join("")}
         </ul>`
     )
     .join("");

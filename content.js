@@ -65,14 +65,23 @@ const teaching = [
   {
     role: "Instructor Aide, University of Michigan",
     items: [
-      'EECS 498-014: Graphics and Generative Models. (Course development, Winter 2025) [<a href="https://um-graphics.github.io/">course website</a>] Instructor: <a href="https://jjparkcv.github.io/">Jeong Joon Park</a>',
+      {
+        date: "Winter 2025",
+        html: 'EECS 498-014: Graphics and Generative Models. (Course development) [<a href="https://um-graphics.github.io/">course website</a>] Instructor: <a href="https://jjparkcv.github.io/">Jeong Joon Park</a>',
+      },
     ],
   },
   {
     role: "Teaching Assistant, Shanghai Jiao Tong University",
     items: [
-      'ENGR1000J: Introduction to Engineering (Software Engineering). (Summer 2023) Instructor: <a href="https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/">Manuel Charlemagne</a>',
-      'MATH2140J/MATH4170J: Linear Algebra. (Fall 2022, Spring 2023) Instructor: <a href="https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/">Manuel Charlemagne</a>',
+      {
+        date: "Summer 2023",
+        html: 'ENGR1000J: Introduction to Engineering (Software Engineering). Instructor: <a href="https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/">Manuel Charlemagne</a>',
+      },
+      {
+        date: "Fall 2022, Spring 2023",
+        html: 'MATH2140J/MATH4170J: Linear Algebra. Instructor: <a href="https://gc.sjtu.edu.cn/about/faculty-staff/faculty-directory/faculty-detail/76/">Manuel Charlemagne</a>',
+      },
     ],
   },
 ];

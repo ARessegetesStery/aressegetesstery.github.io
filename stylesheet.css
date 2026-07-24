@@ -454,7 +454,7 @@ a, button, input, textarea, select, summary, [tabindex] {
   letter-spacing: 0.02em;
   margin-top: 10px;
   display: flex;
-  gap: 18px;
+  gap: 10px;
 }
 
 .pub-links a {
@@ -464,6 +464,12 @@ a, button, input, textarea, select, summary, [tabindex] {
 
 .pub-links a:hover {
   color: var(--accent-2);
+}
+
+/* Dimmed separator between Project / Paper / Code links -- same faint grey as
+   .pub-venue so the divider recedes behind the accent-coloured link labels. */
+.pub-links-sep {
+  color: var(--faint);
 }
 
 /* ---- teaching ---- */
@@ -488,10 +494,13 @@ a, button, input, textarea, select, summary, [tabindex] {
   margin: 0.5em 0 0;
 }
 
+/* Match the Education section's time-period layout: a mono/accent date column
+   (.item-date) on the left, description on the right. See #edu-list li. */
 #teaching-list li {
+  display: flex;
+  gap: 14px;
   font-size: 0.95rem;
   margin-top: 8px;
-  line-height: 1.5;
 }
 
 /* ---- footer ---- */
