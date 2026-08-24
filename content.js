@@ -56,8 +56,8 @@ const publications = [
 ];
 
 const education = [
-  { date: "2026.08 – (now)", html: "PhD, University of Utah" },
-  { date: "2025.07 – 2026.06", html: "Research Assistant, University of Utah" },
+  { date: "2026.08 – (now)", html: "PhD, University of Utah." },
+  { date: "2025.07 – 2026.06", html: "Research Assistant, University of Utah." },
   { date: "2023.09 – 2025.05", html: "Undergraduate, University of Michigan." },
   { date: "2021.09 – 2025.08", html: "Undergraduate, Shanghai Jiao Tong University." },
 ];
