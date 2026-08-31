@@ -21,7 +21,11 @@ function renderPublications() {
   host.innerHTML = publications
     .map((pub) => {
       const links = pub.links
-        .map((l) => `<a href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}</a>`)
+        .map((l) =>
+          l.href
+            ? `<a href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}</a>`
+            : `<span class="pub-pending">${l.label}</span>`
+        )
         .join('<span class="pub-links-sep" aria-hidden="true">|</span>');
       return `
         <div class="pub">

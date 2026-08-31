@@ -19,6 +19,18 @@ const newsItems = [
 
 const publications = [
   {
+    venue: "ACM Transactions on Graphics (SIGGRAPH Asia 2026)",
+    image: "static/images/pd-jgs2.png",
+    title: "Multi-level Quadrature for Projective Dynamics",
+    authorsHtml:
+      'Dewen Guo*, <strong>Yuqi Meng</strong>*, Zixuan Lu*, Zhiyong He, Huamin Wang, Lei Lan, Weiwei Xu, Kui Wu, Chenfanfu Jiang, Yin Yang',
+    links: [
+      // DOI is assigned but not yet resolvable; ACM publishes Dec 2026.
+      // { label: "Paper", href: "https://dl.acm.org/doi/10.1145/3842501" },
+      { label: "Paper (Coming Soon)" },
+    ],
+  },
+  {
     venue: "ACM Transactions on Graphics (SIGGRAPH 2026)",
     image: "static/images/bsfem.png",
     title: "Efficient B-Spline Finite Elements for Cloth Simulation",

@@ -484,6 +484,13 @@ a, button, input, textarea, select, summary, [tabindex] {
   color: var(--faint);
 }
 
+/* Link-less entry (e.g. a paper whose DOI isn't live yet) -- italic and
+   muted, matching the "*Paper (Coming Soon)*" treatment the prior site used. */
+.pub-links .pub-pending {
+  color: var(--faint);
+  font-style: italic;
+}
+
 /* ---- teaching ---- */
 
 .teaching-role {
