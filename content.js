@@ -25,9 +25,7 @@ const publications = [
     authorsHtml:
       'Dewen Guo*, <strong>Yuqi Meng</strong>*, Zixuan Lu*, Zhiyong He, Huamin Wang, Lei Lan, Weiwei Xu, Kui Wu, Chenfanfu Jiang, Yin Yang',
     links: [
-      // DOI is assigned but not yet resolvable; ACM publishes Dec 2026.
-      // { label: "Paper", href: "https://dl.acm.org/doi/10.1145/3842501" },
-      { label: "Paper (Coming Soon)" },
+      { label: "Paper", href: "https://dl.acm.org/doi/abs/10.1145/3842501" },
     ],
   },
   {
